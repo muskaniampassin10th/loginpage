@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+.main-box{
+    background-color: #485461;
+    /* background-image: linear-gradient(315deg, #485461 0%, #28313b 74%); */
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    right: 0;
+    position:fixed;
+    padding: 12PX;
+    background-color: white;
+    
+
+}
+.icone{
+    font-size: 30px;
+}
+.menu-box{
+    display: flex;
+    gap: 25px;
+}
+.input-text{
+     font-size: 14px;
+     border-radius: 3px;
+     padding: 4px;
+
+}
+.button{
+    font-size: 15px;
+     /* height: 25px; */
+    width: 70px;
+    margin-left: 10px;
+    background-color: darkred;
+    border-radius: 5px;
+    padding: 4px;
+    color: white;
+    border-color: darkred;
+    
+}
+.menu-active{
+    background-color: darkred;
+    color: white;
+    border-radius: 3px;
+    /* height: 30px;
+    width: 60px; */
+    padding: 8px;
+}
+.menu:hover{
+    background-color: darkred;
+    color: white;
+    border-radius: 3px;
+    padding: 8px;
+}
+
+
+.container{
+    border: 2px solid #485461;
+    border-radius: 9px;
+    height: 270px;
+    width: 350px;
+    margin-left: 500px;
+    margin-top: 150px;
+    background-color: white; 
+}
+.container1{
+    font-size: 17px;
+    margin-left: 20px;
+    margin-top: 30px;
+    
+}
+.input-email{
+    height: 40px;
+    width: 300px;
+    margin-left: 20px;
+    border-radius: 4px;
+    font-size: 17px;
+}
+.container2{
+    font-size: 17px;
+    margin-left: 20px;
+    margin-top: 30px;
+    
+}
+.submit{
+    font-size: 17px;
+    margin-left: 20px;
+    margin-top: 30px;
+    background-color: darkred;
+    border-radius: 7px;
+    padding: 8px;
+    width: 80px;
+    border-color: darkred;
+
+}
